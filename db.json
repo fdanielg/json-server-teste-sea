@@ -1,9 +1,54 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "setores": [
+    {
+      "nome": "Setor 1",
+      "cargos": [
+        {
+          "nome": "Cargo 1"
+        },
+        {
+          "nome": "Cargo 2"
+        },
+        {
+          "nome": "Cargo 3"
+        },
+        {
+          "nome": "Cargo 4"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "nome": "Setor 2",
+      "cargos": [
+        {
+          "nome": "Cargo 5"
+        },
+        {
+          "nome": "Cargo 6"
+        },
+        {
+          "nome": "Cargo 7"
+        },
+        {
+          "nome": "Cargo 8"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "nome": "Setor 3",
+      "cargos": [
+        {
+          "nome": "Cargo 9"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "nome": "setor novo",
+      "cargos": [],
+      "id": 4
+    }
+  ]
 }
